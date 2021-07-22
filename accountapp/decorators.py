@@ -7,7 +7,7 @@ def account_ownership_required(func):
         target_user = User.objects.get(pk=kwargs['pk'])
         if target_user == request.user:
             return func(request, *args, **kwargs)
-        else :
+        else:
             return HttpResponseForbidden()
 
     return decorated
