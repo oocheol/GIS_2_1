@@ -13,7 +13,7 @@
         </div>
         <div>
             {#      게시글 내용, 게시글 대표 이미지      #}
-            <img src="{{ target_article.image.url }}" alt="">
+            <img style="width: 70%" src="{{ target_article.image.url }}" alt="">
             {{ target_article.content }}
             <div>
                 <a href="{% url 'articleapp:update' pk=target_article.pk %}"
