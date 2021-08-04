@@ -25,6 +25,7 @@ class ArticleCreateView(CreateView):
     def get_success_url(self):
         return reverse('articleapp:detail', kwargs={'pk': self.object.pk})
 
+
 class ArticleDetailView(DetailView):
     model = Article
     context_object_name = 'target_article'
@@ -41,6 +42,7 @@ class ArticleUpdateView(UpdateView):
 
     def get_success_url(self):
         return reverse('articleapp:detail', kwargs={'pk': self.object.pk})
+
 
 @method_decorator(article_ownership_required, 'get')
 @method_decorator(article_ownership_required, 'post')
