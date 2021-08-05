@@ -1,4 +1,3 @@
-
 .pragmatic_header_logo{
     margin: 2rem 0;
     font-family: 'Pacifico', cursive;
@@ -33,16 +32,28 @@
     font-family: "NanumSquareB", cursive;
 }
 
+
 .round_button {
     color: black;
     text-decoration: none;
     box-shadow: 0 0 3px black;
     border-radius: 20rem;
-    padding: .3rem;
+    padding: 0.3rem;
 }
 
 
 .round_button:hover {
-    color: dimgray;
+    color: dimgrey;
 }
 
+
+.article_image {
+    width: 60%;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem grey;
+}
+
+.article_content {
+    text-align: left;
+    font-size: 1.1rem;
+}
