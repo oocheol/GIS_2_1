@@ -9,6 +9,7 @@ from django.views.generic import RedirectView
 from projectapp.models import Project
 from subscribeapp.models import Subscription
 
+
 @method_decorator(login_required, 'get')
 class SubscriptionView(RedirectView):
 
