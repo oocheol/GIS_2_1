@@ -95,4 +95,4 @@ gis_2ban_gcp.pub
 # (서버접속) ssh -i gis_2ban_gcp oocheol1@34.83.24.225
 
 # 설치된 라이브러리 txt 생성
-# pip freeze > requirements.txt
+# (터미널) pip freeze > requirements.txt
