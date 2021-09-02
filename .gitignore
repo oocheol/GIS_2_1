@@ -96,3 +96,5 @@ gis_2ban_gcp.pub
 
 # 설치된 라이브러리 txt 생성
 # (터미널) pip freeze > requirements.txt
+
+Dockerfile
