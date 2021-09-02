@@ -86,10 +86,13 @@ media/
 staticfiles/
 
 oocheol.pem
-# (서버접속) ssh -i oocheol.pem ubuntu@18.117.154.9
+# (서버접속) ssh -i oocheol.pem ubuntu@18.117.154.99
 
 gis_2ban_gcp
 gis_2ban_gcp.pub
 # googel GCP
 # (2번째 프로젝트용) ssh-keygen -t rsa -b 4096 -f gis_2ban_gcp -C "oocheol1@gmail.com"
 # (서버접속) ssh -i gis_2ban_gcp oocheol1@34.83.24.225
+
+# 설치된 라이브러리 txt 생성
+# pip freeze > requirements.txt
