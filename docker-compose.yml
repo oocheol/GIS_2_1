@@ -39,7 +39,6 @@ services:
       MARIADB_PASSWORD_FILE: /run/secrets/MARIADB_PASSWORD
       MARIADB_ROOT_PASSWORD_FILE: /run/secrets/MARIADB_ROOT_PASSWORD
 
-
 networks:
   gis_2ban_network:
 
