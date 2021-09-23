@@ -12,7 +12,7 @@ services:
       - 80:80
 
   django:
-    image: gis_2ban_django:4
+    image: gis_2ban_django:5
     networks:
       - gis_2ban_network
     secrets:
