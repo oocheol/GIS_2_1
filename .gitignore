@@ -87,12 +87,16 @@ staticfiles/
 
 oocheol.pem
 # (AWS 서버접속) ssh -i oocheol.pem ubuntu@18.117.154.99
+# cat access.log | sudo docker run --rm -i -e LANG=$LANG allinurl/goaccess -a -o html --log-format COMBINED - > report.html
+
 
 gis_2ban_gcp
 gis_2ban_gcp.pub
 # googel GCP
 # (2번째 프로젝트용) ssh-keygen -t rsa -b 4096 -f gis_2ban_gcp -C "oocheol1@gmail.com"
 # (GCP 서버접속) ssh -i gis_2ban_gcp oocheol1@34.83.24.225
+# cat access.log | sudo docker run --rm -i -e LANG=$LANG allinurl/goaccess -a -o html --log-format COMBINED - > report.html
+
 
 # 설치된 라이브러리 txt 생성
 # (터미널) pip freeze > requirements.txt
