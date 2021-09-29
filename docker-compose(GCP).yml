@@ -7,6 +7,7 @@ services:
     volumes:
       - gis_2ban_media:/data/media/
       - gis_2ban_static:/data/static/
+      - gis_log:/var/log/nginx/
       - /home/oocheol1/nginx.conf:/etc/nginx/nginx.conf
     ports:
       - 80:80
@@ -47,6 +48,7 @@ volumes:
   gis_2ban_media:
   gis_2ban_static:
   gis_2ban_mariadb:
+  gis_log:
 
 secrets:
   DJANGO_SECRET_KEY:

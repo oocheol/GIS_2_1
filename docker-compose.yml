@@ -48,6 +48,7 @@ volumes:
   gis_2ban_media:
   gis_2ban_static:
   gis_2ban_mariadb:
+  gis_log:
 
 secrets:
   DJANGO_SECRET_KEY:
