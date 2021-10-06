@@ -88,7 +88,7 @@ staticfiles/
 oocheol.pem
 # (AWS 서버접속) ssh -i oocheol.pem ubuntu@18.117.154.99
 # cat access.log | sudo docker run --rm -i -e LANG=$LANG allinurl/goaccess -a -o html --log-format COMBINED - > report.html
-
+# report.html 권한부여 -> openssl passwd -1
 
 gis_2ban_gcp
 gis_2ban_gcp.pub
